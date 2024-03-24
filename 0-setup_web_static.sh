@@ -35,7 +35,7 @@ server {
         # Add index.php to the list if you are using PHP
         index index.html index.htm index.nginx-debian.html;
 
-        server_name myafc.tech;
+        server_name ajwadg.tech;
 
 	error_page 404 /error_404.html;
 

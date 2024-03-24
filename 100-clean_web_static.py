@@ -2,7 +2,7 @@
 """ clean_web_static module"""
 from fabric.api import *
 from os import listdir
-env.hosts = ['100.25.192.162', '54.82.15.30']
+env.hosts = ['100.26.215.136', '100.26.20.75']
 
 
 def do_clean(number=0):
