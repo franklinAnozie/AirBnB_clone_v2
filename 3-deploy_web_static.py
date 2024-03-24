@@ -4,7 +4,7 @@ from fabric.api import *
 from os.path import getsize
 do_pack = __import__('1-pack_web_static').do_pack
 do_deploy = __import__('2-do_deploy_web_static').do_deploy
-env.hosts = ['100.26.215.136', '100.26.20.75']
+env.hosts = ['100.25.192.162', '54.82.15.30']
 
 
 path = do_pack()
